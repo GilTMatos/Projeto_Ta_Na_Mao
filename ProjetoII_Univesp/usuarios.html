@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Usuario vacinado</title>
+</head>
+<body bgcolor="#c0c0c0">
+    <font face="arial" color="#0000ff">
+
+        <img align="right" src="{{ url_for('static', filename='ta-na-mao.gif')}}">
+
+        <h2>Seja bem-vindo ao formulário de vacinas!</h2>
+    </font>
+
+    <h2>Nome do vacinado é {{ nome_usuario }}</h2>
+    <b><ul>
+        <li> R.G : 99.999.999-99
+        <li> Data Nascimento : 99/99/9999
+    </b></ul>
+
+    <h3 align="center">VACINAS APLICADAS</h3>
+
+    <table align="center" border="5">
+        <tr>
+            <th align="center" colspan="2">Vacinas</th>
+            <th align="center" colspan="2">Data</th>
+            <th align="center" colspan="3">Dose</th>
+            <th align="center" colspan="3">Lote</th>
+            <th align="center" colspan="5">Fabricante</th>
+            <th align="center" colspan="7">COREN</th>
+        </tr>
+        <tr>
+            <td align="center" colspan="2">BCG - id</td>
+            <td bgcolor="#a8a8a8" align="center" colspan="2">99/99/9999</td>
+            <td bgcolor="#a8a8a8" align="center" colspan="3">Dose única</td>
+            <td bgcolor="#a8a8a8" align="center" colspan="3">AB9999</td>
+            <td bgcolor="#a8a8a8" align="center" colspan="5">Butanta</td>
+            <td bgcolor="#a8a8a8" align="center" colspan="7">999.999</td>
+        </tr>
+        <tr><td valign="center" rowspan="3">Poliomielite</td>
+            <td align="center" colspan="3">79/79/7999</td>
+            <td align="center" colspan="3">1ªdose</td>
+            <td align="center" colspan="3">AB9999</td>
+            <td align="center" colspan="5">Butanta</td>
+            <td align="center" colspan="7">999.999</td></tr>
+
+            <tr><td bgcolor="#a8a8a8" align="center" colspan="3">89/89/8999</td>
+            <td bgcolor="#a8a8a8" align="center" colspan="3">2ªdose</td>
+            <td bgcolor="#a8a8a8" align="center" colspan="3">AB9999</td>
+            <td bgcolor="#a8a8a8" align="center" colspan="5">Butanta</td>
+            <td bgcolor="#a8a8a8" align="center" colspan="7">999.999</td></tr>
+
+            <tr><td align="center" colspan="3">99/99/9999</td>
+            <td align="center" colspan="3">3ªdose</td>
+            <td align="center" colspan="3">AB9999</td>
+            <td align="center" colspan="5">Butanta</td>
+            <td align="center" colspan="7">999.999</td></tr>
+
+            <tr><td valign="center" rowspan="3">Hepatite B</td>
+            <td align="center" colspan="3">79/79/7999</td>
+            <td align="center" colspan="3">1ªdose</td>
+            <td align="center" colspan="3">AB9999</td>
+            <td align="center" colspan="5">Butanta</td>
+            <td align="center" colspan="7">999.999</td></tr>
+
+            <tr><td bgcolor="#a8a8a8" align="center" colspan="3">89/89/8999</td>
+            <td bgcolor="#a8a8a8" align="center" colspan="3">2ªdose</td>
+            <td bgcolor="#a8a8a8" align="center" colspan="3">AB9999</td>
+            <td bgcolor="#a8a8a8" align="center" colspan="5">Butanta</td>
+            <td bgcolor="#a8a8a8" align="center" colspan="7">999.999</td></tr>
+
+            <tr><td align="center" colspan="3">99/99/9999</td>
+            <td align="center" colspan="3">3ªdose</td>
+            <td align="center" colspan="3">AB9999</td>
+            <td align="center" colspan="5">Butanta</td>
+            <td align="center" colspan="7">999.999</td></tr>
+
+         <tr><td valign="center" rowspan="2">Hemófilo</td>
+            <td bgcolor="#a8a8a8" align="center" colspan="3">79/79/7999</td>
+            <td bgcolor="#a8a8a8" align="center" colspan="3">1ªdose</td>
+            <td bgcolor="#a8a8a8" align="center" colspan="3">AB9999</td>
+            <td bgcolor="#a8a8a8" align="center" colspan="5">Butanta</td>
+            <td bgcolor="#a8a8a8" align="center" colspan="7">999.999</td></tr>
+
+            <tr><td align="center" colspan="3">89/89/8999</td>
+            <td align="center" colspan="3">2ªdose</td>
+            <td align="center" colspan="3">AB9999</td>
+            <td align="center" colspan="5">Butanta</td>
+            <td align="center" colspan="7">999.999</td></tr>
+        <tr>
+            <td align="center" colspan="2">Tetra Viral</td>
+            <td bgcolor="#a8a8a8" align="center" colspan="2">99/99/9999</td>
+            <td bgcolor="#a8a8a8" align="center" colspan="3">Dose única</td>
+            <td bgcolor="#a8a8a8" align="center" colspan="3">AB9999</td>
+            <td bgcolor="#a8a8a8" align="center" colspan="5">Butanta</td>
+            <td bgcolor="#a8a8a8" align="center" colspan="7">999.999</td></tr>
+        <tr>
+            <td align="center" colspan="2">Febre Amarela</td>
+            <td align="center" colspan="2">99/99/9999</td>
+            <td align="center" colspan="3">Dose única</td>
+            <td align="center" colspan="3">AB9999</td>
+            <td align="center" colspan="5">Butanta</td>
+            <td align="center" colspan="7">999.999</td></tr>
+        <tr>
+            <td align="center" colspan="2">Influenza</td>
+            <td bgcolor="#a8a8a8" align="center" colspan="2">99/99/9999</td>
+            <td bgcolor="#a8a8a8" align="center" colspan="3">Anual</td>
+            <td bgcolor="#a8a8a8" align="center" colspan="3">AB9999</td>
+            <td bgcolor="#a8a8a8" align="center" colspan="5">Butanta</td>
+            <td bgcolor="#a8a8a8" align="center" colspan="7">999.999</td></tr>
+
+        <tr><td valign="center" rowspan="3">Covid-19</td>
+            <td align="center" colspan="3">79/79/7999</td>
+            <td align="center" colspan="3">1ªdose</td>
+            <td align="center" colspan="3">AB9999</td>
+            <td align="center" colspan="5">PFizer</td>
+            <td align="center" colspan="7">999.999</td></tr>
+
+            <tr><td bgcolor="#a8a8a8" align="center" colspan="3">89/89/8999</td>
+            <td bgcolor="#a8a8a8" align="center" colspan="3">2ªdose</td>
+            <td bgcolor="#a8a8a8" align="center" colspan="3">AB9999</td>
+            <td bgcolor="#a8a8a8" align="center" colspan="5">PFizer</td>
+            <td bgcolor="#a8a8a8" align="center" colspan="7">999.999</td></tr>
+
+    </table>
+
+<img align="right" src="{{ url_for('static', filename='impressora.gif')}}">
+</body>
+</html>

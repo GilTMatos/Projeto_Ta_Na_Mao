@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>enfermeiro</title>
+</head>
+<body bgcolor="#c0c0c0">
+
+<font face="arial" color="#0000ff">
+
+ <img align="right" src="{{ url_for('static', filename='ta-na-mao.gif')}}">
+
+    <h2>Seja bem-vindo ao formulário de cadastro!</h2>
+    <h3>Preencha os dados do Enfermeiro e envie.</h3>
+    </font>
+
+       <form action="http://127.0.0.1:5000/htbin-post/post-query" method="post">
+        <p><b><h3>
+            Nome completo: <input type="text" name="Nome" placeholder=" ** DIGITE O SEU NOME COMPLETO" size="45"><p>
+            Data de nascimento: <input type="date" name="Data" size="8"><p>
+            Informe o seu sexo:<br><br>
+                  <input type="radio" name="Sexo" value="F">Feminino<p>
+                  <input type="radio" name="Sexo" value="F">Masculino<p>
+                  <input type="radio" name="Sexo" value="F">Outro<p>
+            Registro Coren: <input type="number" name="Coren" placeholder="**DIGITE O REGISTRO" size="18"><p>
+            R.G: <input type="number" name="RG" placeholder=" **DIGITE O RG" size="15"><p>
+        </h3></b></p><br>
+            <input type="submit" value="Enviar os dados">
+            <input type="reset" value="Limpar os dados">
+        </form>
+</body>
+</html>
